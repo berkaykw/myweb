@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ömer Berkay Karataş - Yazılım Mühendisi | Flutter, Python, AI Developer">
+    <title>Berkay Karataş | Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Grain Overlay -->
+    <div class="grain"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <span class="logo-text">Berkay</span>
+            </a>
+            <div class="nav-links">
+                <a href="#work" class="nav-link">Projeler</a>
+                <a href="#about" class="nav-link">Hakkımda</a>
+                <a href="#contact" class="nav-link nav-link--cta">
+                    <span>İletişim</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#work" class="mobile-link">Projeler</a>
+            <a href="#about" class="mobile-link">Hakkımda</a>
+            <a href="#contact" class="mobile-link">İletişim</a>
+            <div class="mobile-socials">
+                <a href="https://github.com/berkaykw" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/berkaykw" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Vibe Coding</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Yaratıcı</span>
+                <span class="title-line">
+                    <span class="title-outline">Developer</span>
+                    <span class="title-accent">&</span>
+                </span>
+                <span class="title-line">Problem Çözücü</span>
+            </h1>
+            <p class="hero-subtitle">
+                Vibe Coder. Flutter, Node.js, Java, Python ve AI ile
+                <br>modern dijital deneyimler tasarlıyorum.
+            </p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary">
+                    <span>Çalışmalarım</span>
+                    <div class="btn-icon">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                </a>
+                <a href="https://github.com/berkaykw" target="_blank" class="btn btn-ghost">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>Flutter Developer</span>
+                <span class="marquee-dot">◆</span>
+                <span>Python</span>
+                <span class="marquee-dot">◆</span>
+                <span>AI & ML</span>
+                <span class="marquee-dot">◆</span>
+                <span>Mobile Apps</span>
+                <span class="marquee-dot">◆</span>
+                <span>Web Scraping</span>
+                <span class="marquee-dot">◆</span>
+                <span>API Development</span>
+                <span class="marquee-dot">◆</span>
+                <span>Flutter Developer</span>
+                <span class="marquee-dot">◆</span>
+                <span>Python</span>
+                <span class="marquee-dot">◆</span>
+                <span>AI & ML</span>
+                <span class="marquee-dot">◆</span>
+                <span>Mobile Apps</span>
+                <span class="marquee-dot">◆</span>
+                <span>Web Scraping</span>
+                <span class="marquee-dot">◆</span>
+                <span>API Development</span>
+                <span class="marquee-dot">◆</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-intro">
+                    <span class="section-label">Hakkımda</span>
+                    <h2 class="about-title">
+                        Kod yazmak benim için
+                        <span class="highlight">sadece iş değil,</span>
+                        aynı zamanda tutku.
+                    </h2>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Merhaba! Ben <strong>Berkay</strong>, İstanbul'da yaşayan bir Bilgisayar Mühendisliği
+                        son sınıf öğrencisiyim. Flutter ile mobil uygulamalar, Node.js ile web uygulamaları, Python ile
+                        AI projeleri
+                        geliştiriyorum.
+                    </p>
+                    <p>
+                        Her yeni proje benim için bir öğrenme fırsatı. Karmaşık problemleri basit ve
+                        kullanıcı dostu çözümlere dönüştürmeyi seviyorum. Şu anda yapay zeka ve
+                        Mobil Uygulama Geliştirme üzerine çalışıyorum.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-value">13+</span>
+                        <span class="stat-label">Açık Kaynak Proje</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value">4</span>
+                        <span class="stat-label">Yıl Deneyim</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value">∞</span>
+                        <span class="stat-label">Öğrenme İsteği</span>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3 class="skills-title">Tech Stack</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Featured Work</span>
+                <h2 class="section-title">Seçili Projeler</h2>
+            </div>
+
+            <!-- Projects List -->
+            <div class="projects-grid">
+                <!-- rayaAI -->
+                <article class="project-card">
+                    <a href="projects/rayaai.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">rayaAI</h3>
+                            <p class="project-brief">Yapay zeka destekli cilt analizi</p>
+                        </div>
+                        <span class="project-status status-dev">Geliştiriliyor</span>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- VidMagnet -->
+                <article class="project-card">
+                    <a href="projects/vidmagnet.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">VidMagnet</h3>
+                            <p class="project-brief">Cross-platform video indirici</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- FlipCash -->
+                <article class="project-card">
+                    <a href="projects/flipcash.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">FlipCash</h3>
+                            <p class="project-brief">Anlık döviz çevirici</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- PriceScout -->
+                <article class="project-card">
+                    <a href="projects/pricescout.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">PriceScout</h3>
+                            <p class="project-brief">E-ticaret fiyat karşılaştırma</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- DailySong -->
+                <article class="project-card">
+                    <a href="projects/dailysong.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">DailySong</h3>
+                            <p class="project-brief">Günlük şarkı oylama platformu</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- QuickCook -->
+                <article class="project-card">
+                    <a href="projects/quickcook.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">QuickCook</h3>
+                            <p class="project-brief">Akıllı yemek tarifi önerileri</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+
+                <!-- Fake News AI -->
+                <article class="project-card">
+                    <a href="projects/fakenews.html" class="project-link">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="project-info-wrapper">
+                            <h3 class="project-name">Fake News AI</h3>
+                            <p class="project-brief">Sahte haber tespit modeli</p>
+                        </div>
+                        <i class="fas fa-chevron-right project-arrow"></i>
+                    </a>
+                </article>
+            </div>
+
+            <div class="work-more">
+                <a href="https://github.com/berkaykw?tab=repositories" target="_blank" class="link-arrow">
+                    <span>Tüm projeleri gör</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-label">İletişim</span>
+                    <h2 class="contact-title">
+                        Bir projen mi var?<br>
+                        <span class="gradient-text">Konuşalım.</span>
+                    </h2>
+                    <p class="contact-desc">
+                        Yeni fırsatlara ve işbirliklerine açığım.
+                        Bir proje fikrin varsa veya sadece merhaba demek istersen,
+                        bana ulaşmaktan çekinme.
+                    </p>
+                    <a href="mailto:berkaykw0@gmail.com" class="contact-email">
+                        <span>berkaykw0@gmail.com</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="contact-socials">
+                        <a href="https://github.com/berkaykw" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/berkaykw" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <div class="card-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-avatar"><i class="fas fa-code"></i></div>
+                            <div class="card-info">
+                                <h4>Berkay Karataş</h4>
+                                <p>Developer</p>
+                            </div>
+                            <div class="card-status">
+                                <span class="status-dot"></span>
+                                <span>Müsait</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="footer-logo">Berkay Karataş</span>
+                    <p>© 2026 Tüm hakları saklıdır.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://github.com/berkaykw" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/berkaykw" target="_blank">LinkedIn</a>
+                    <a href="mailto:berkaykw0@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
