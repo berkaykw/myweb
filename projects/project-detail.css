@@ -34,7 +34,8 @@
 .project-icon-large {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-purple) 100%);
+    background: linear-gradient(135deg, #ff4d4d 0%, #ff6b6b 100%);
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.4), 0 0 20px rgba(255, 77, 77, 0.2);
     border-radius: 30px;
     display: flex;
     align-items: center;
